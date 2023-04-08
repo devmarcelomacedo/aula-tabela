@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+   
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.num {
+    text-align: right;
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: darkgrey;
+
+}
+
+thead, tfoot {
+    background-color: darkgrey;
+    color: white;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
